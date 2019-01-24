@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "simple-odyssey-test-aws",
-    "slug": "simple-odyssey-test-aws",
+    "name": "simple-odyssey-test",
+    "slug": "simple-odyssey-test",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
