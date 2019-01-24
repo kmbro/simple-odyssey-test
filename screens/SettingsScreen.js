@@ -17,7 +17,7 @@ export default class SettingsScreen extends React.Component {
     return (
       <View style={styles.container}>
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-          <View style={styles.welcomeContainer}>
+          <View style={styles.settingsContainer}>
             <Button style={styles.signOutBtn}
               onPress={this.signOut}
               title="Sign Out"
@@ -34,9 +34,9 @@ let styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
-  welcomeContainer: {
+  settingsContainer: {
     alignItems: 'center',
-    marginTop: 10,
+    marginTop: 50,
     marginBottom: 20,
   },
   signOutBtn: {
